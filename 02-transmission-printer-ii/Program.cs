@@ -4,6 +4,7 @@ class Program
     {
         PrintTransmission("System ready");
         PrintTransmission("Dock", "Gate unlocked");
+        PrintTransmission("Sunday","Closed", "Open on Monday");
 
         // TODO: Kall også din tredje overload.
     }
@@ -18,5 +19,10 @@ class Program
         Console.WriteLine($"[{sender}] {message}");
     }
 
+
+    static void PrintTransmission(string sender, string message, string todo)
+    {
+        Console.WriteLine($"[{sender}] is {message}, {todo}");
+    }
     // TODO: Lag tredje overload.
 }
