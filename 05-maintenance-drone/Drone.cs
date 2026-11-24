@@ -12,12 +12,16 @@ public class Drone
     public string Describe()
     {
         // TODO
+        System.Console.WriteLine($"Flyet {Name} har fullført {FlightHours} time flytimer. ");
         return "";
     }
-
     public bool NeedsService()
     {
         // TODO
+        if (FlightHours >= 100)
+        {
+            return true;
+        }
         return false;
     }
 }
