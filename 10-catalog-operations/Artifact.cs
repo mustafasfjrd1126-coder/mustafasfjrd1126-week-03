@@ -8,5 +8,4 @@ public class Artifact
         Name = name;
         Origin = origin;
     }
-    
 }
