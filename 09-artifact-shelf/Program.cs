@@ -12,7 +12,7 @@ artifacts.Add(A3);
 // TODO: Skriv Count og alle objektene.
 // TODO: Legg til ett ekstra objekt og skriv Count igjen.
 
-System.Console.WriteLine($"Artifact count is : {artifacts.Count()}");
+System.Console.WriteLine($"Artifact count is :{artifacts.Count()}");
 
 foreach (var item in artifacts)
 {
